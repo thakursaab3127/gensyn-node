@@ -1,6 +1,3 @@
-cd ~
-# स्क्रिप्ट को create/edit करें
-cat << 'EOF' > gensyn_thakur_node.sh
 #!/bin/bash
 sudo apt update && sudo apt install -y figlet python3 python3-venv python3-pip curl wget screen git lsof nano unzip iproute2
 clear
@@ -59,6 +56,3 @@ echo ""
 echo "🎉 Setup Complete! No login/prompts needed, auto-restarts enabled."
 echo "📺 Logs via: journalctl -fu gensyn-thakur"
 echo "✅ Munna ready to roll!"
-EOF
-
-chmod +x gensyn_thakur_node.sh
